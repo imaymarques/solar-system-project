@@ -1,3 +1,143 @@
 .App {
   text-align: center;
 }
+
+Header {
+  display: flex;
+  justify-content: center;
+  color: antiquewhite;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title {
+  display: flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  justify-content: center;
+  border: 1px white solid;
+  border-radius: 10px;
+  width: 800px;
+  margin-bottom: 20px;
+  margin-left: 220px
+}
+
+.all-planets {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.planet-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: italic;
+}
+
+.planet-card:hover {
+  box-shadow: 0px 0px 90px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.1);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.1);
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+}
+
+body {
+  background-image: url('./images/background.png');
+  color: antiquewhite;
+}
+
+.Mercúrio {
+  width: 50px;
+  height: 50px;
+}
+
+.Vênus {
+  width: 70px;
+  height: 70px;
+}
+
+.Terra {
+  width: 90px;
+  height: 90px;
+}
+
+.Marte {
+  width: 60px;
+  height: 60px;
+}
+
+.Júpiter {
+  width: 200px;
+}
+
+.Saturno {
+  width: 150px;
+}
+
+.Urano {
+  width: 100px;
+  height: 100px;
+}
+
+.Netuno {
+  width: 90px;
+  height: 90px;
+}
+
+.planet-img {
+  width: 100px;
+}
+
+.Missions-obj {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0px 200px 0px 200px;
+}
+
+.mission-card:hover {
+  box-shadow: 0px 0px 90px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.1);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.1);
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+}
+
+.m-name {
+  border-bottom: 1px white solid;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission-card {
+  display: inline-block;
+  border: 1px white solid;
+  border-radius: 10px;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  align-content: space-around;
+  margin: 15px;
+  width: 200px;
+  padding: 20px;
+}
+.missoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

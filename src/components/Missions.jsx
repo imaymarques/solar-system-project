@@ -15,12 +15,14 @@ class Missions extends Component {
       />
     ));
     return (
-      <div data-testid="missions">
-        <Title headline="Missões" />
-        <div>
+      <>
+        <div data-testid="missions" className="missoes">
+          <Title headline="Missões" />
+        </div>
+        <div className="Missions-obj">
           {obj}
         </div>
-      </div>
+      </>
     );
   }
 }
